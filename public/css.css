@@ -1,0 +1,146 @@
+body {
+    color: black;
+  }
+  
+  .card {
+    width: 100%;
+    height: 485px;
+    margin: 2px;
+  }
+  
+  .card img {
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  .card-title, .card-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  svg {
+    max-width: 35px;
+  }
+  
+  button svg:hover {
+    color: white;
+  }
+  
+
+.card{border:none}
+.product{
+  background-color: #eee
+}
+.brand{
+  font-size: 13px
+}
+.act-price{
+  color:red;font-weight: 700
+}
+.dis-price{
+  text-decoration: line-through
+}
+.about{
+  font-size: 14px
+}
+.color{
+  margin-bottom:10px
+}
+label.radio{
+  cursor: pointer
+}
+label.radio 
+input{position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none
+}
+label.radio
+span{
+  padding: 2px 9px;
+  border: 2px solid #ff0000;
+  display: inline-block;color: #ff0000;
+  border-radius: 3px;
+  text-transform: uppercase
+}
+label.radio input:checked+span{
+  border-color: #ff0000;
+  background-color: #ff0000;
+  color: #fff
+}
+.btn-danger{
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important
+}
+  .btn-danger:hover{
+    background-color: #da0606 !important;
+    border-color: #da0606 !important
+  }
+  .btn-danger:focus{box-shadow: none}
+  .cart i{margin-right: 10px}
+  .images .thumbnail{
+    width: 100%;
+  }
+  .not_found{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .link {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    height: 440px; /* Altura máxima de 440px */
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.main-image {
+    height: 80%;
+}
+
+.thumbnail-carousel {
+    height: 20%;
+    overflow-y: auto;
+}
+.main-mig{
+  min-height: 100%;
+  width: 100%;
+  
+}
+.main-image img{
+  border: 2px black solid;
+  object-fit: fill;
+}
+.product{
+  height: 100%;
+}
+.thumbnail button{ all: initial; font: inherit; color: inherit; cursor: pointer;} 
+.card-img{
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  max-width: 18%;
+}
+
+.cart{
+  margin-top: 80px;
+  border-top: black 1px solid;
+  max-height: 150px;
+}
+.cart-img{
+  max-width: 80px;
+}
+.btn-cart{
+  width: 30px;
+}
